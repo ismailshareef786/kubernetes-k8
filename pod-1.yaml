@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mykube
+  labels:
+    name: first-pod
+spec:
+  containers:
+  - name: first kube
+    image: nginx
+    
+    ports:
+      - containerPort: 90
+    
