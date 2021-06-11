@@ -6,7 +6,7 @@ metadata:
     name: first-pod
 spec:
   containers:
-  - name: first kube
+  - name: first kubes
     image: nginx
     
     ports:
