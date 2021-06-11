@@ -1,7 +1,7 @@
 # Setup Kubernetes (K8s) Cluster on AWS
 
 
-1. Create Ubuntu EC2 instance
+1. Create Ubuntu EC2 instance or ##centos##
 1. install AWSCLI
    ```sh
     curl https://s3.amazonaws.com/aws-cli/awscli-bundle.zip -o awscli-bundle.zip
@@ -78,7 +78,7 @@
      kops delete cluster demo.k8s.shiva.net --yes
     ```
    
-#### Deploying Nginx pods on Kubernetes
+### Deploying Nginx pods on Kubernetes
 1. Deploying Nginx Container
     ```sh
     kubectl run sample-nginx --image=nginx --replicas=2 --port=80

@@ -1,5 +1,4 @@
 # Kubernetes Installation using Kubeadm
-
 ## Installing kubeadm
 
 ### Prerequisites
@@ -15,6 +14,7 @@
 - Full network connectivity between all machines in the cluster (public or private network is fine)
 
 ## Install Docker on all the Nodes-Manually
+# follow below#
  
 Note: before installing docker version, check the compatable docker version in the kubernetes documentation 
 
