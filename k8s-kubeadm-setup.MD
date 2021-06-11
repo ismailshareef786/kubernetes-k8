@@ -1,5 +1,4 @@
 # Kubernetes Installation using Kubeadm
-
 ## Installing kubeadm
 
 ### Prerequisites
